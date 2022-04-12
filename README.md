@@ -69,6 +69,14 @@ Experiment 1
 
 <img title="" src="./fig/MAIPO_new.png" alt="" width="561" data-align="center">
 
+Experiment 2
+
+<img title="" src="./fig/Turb2.png" alt="" width="561" data-align="center">
+
+<img title="" src="./fig/Turb6.png" alt="" width="561" data-align="center">
+
+<img title="" src="./fig/turb9.png" alt="" width="561" data-align="center">
+
 ### The dynamical process which MARL control policy overcome the wake effect
 
 #### MPPT control 
@@ -85,4 +93,17 @@ Experiment 1
 
 We reproduce HAPPO and compare it with MAIPO. From the following results, we can find the performance of MAIPO is better than HAPPO. 
 
-<img title="" src="./fig/new_simple_reference.png" alt="" width="210"><img title="" src="./fig/new_simple_speaker_listener.png" alt="" width="213"><img title="" src="./fig/new_simple_spread.png" alt="" width="213">
+
+
+### MPE-Reference
+
+<img title="" src="./fig/new_simple_reference.png" alt="" width="600">
+
+### MPE-Speaker_Listener
+
+<img title="" src="./fig/new_simple_speaker_listener.png" alt="" width="600">
+
+### MPE-Spread
+
+<img title="" src="./fig/new_simple_spread.png" alt="" width="600">
+
