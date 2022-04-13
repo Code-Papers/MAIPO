@@ -87,6 +87,16 @@ Experiment 2
 
 #### MARL (MAIPO) control
 
+Six Turbine case
+
+<img title="" src="./fig/wf6_1.jpg" alt="" width="213">            <img title="" src="./fig/wf6_2.jpg" alt="" width="213">        <img title="" src="./fig/wf6_3.jpg" alt="" width="213">
+
+
+
+Nine Turbine Case
+
+<img title="" src="./fig/wf9_1.jpg" alt="" width="213">            <img title="" src="./fig/wf9_2.jpg" alt="" width="213">        <img title="" src="./fig/wf9_3.jpg" alt="" width="213">
+
 
 
 ## Additional results in MPE
