@@ -78,7 +78,7 @@ Experiment 3
 
 Experiment 4
 
-<img title="" src="./fig/turb9.png" alt="" width="561" data-align="center">
+<img title="" src="./fig/Turb9.png" alt="" width="561" data-align="center">
 
 ### The dynamical process which MARL control policy overcome the wake effect
 
