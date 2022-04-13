@@ -36,9 +36,7 @@ Roughly, the output power of a wind turbine can be determined by its yaw angle, 
 
 The wind farm simulator we used in this paper is FAST.Farm, it serves as the real-time digital counterpart of a physical wind farm. This simulator both include models of the aerodynamics of the wind farm and the elastic-servo dynamics of wind turbines. Different from the traditional control methods that use the wind farm model to design the control policy, MARL aims to teach each agent (turbine) to learn the control policy through interacting with the simulator. Specifically, at time $t$, MARL agents use the control policy $\pi_t$ to generate action references (e.g. pitch and torque) $a_t$ for wind turbines based on the current state $s_t$ of the simulator. Then, the actuators execute their actions while imposing a thrust force on the wind farm. The farm simulator shifts the next state $s_{t+1}$ by calculating this force while feeding back a reward $r$ to agents. MARL leverages this reward to train the control policy of each agent, and then the agent uses the trained policy $\pi_{t+1}$ to generate action references at $s_{t+1}$. The interaction between agents and the simulator continues until the control policy converges to an excellent solution. Through the entire training process, the MARL agents only use samples collected from the interaction with the simulator to learn the control policy, rather than acquiring any information about the model of the wind  farm.
 
-
-
-<img src="./fig/Simulator.PNG" title="" width="400" alt="" data-align="center">
+<img src="./fig/Simulator.png" title="" width="400" alt="" data-align="center">
 
 ## Maximal Power Point Tracking (MPPT)- a classical control method for wind turbines
 
@@ -72,10 +70,13 @@ Experiment 1
 Experiment 2
 
 <img title="" src="./fig/Turb2.png" alt="" width="561" data-align="center">
+Experiment 3
 
 <img title="" src="./fig/Turb6.png" alt="" width="561" data-align="center">
 
-<img title="" src="./fig/turb9.png" alt="" width="561" data-align="center">
+Experiment 4
+
+<img title="" src="./fig/Turb9.png" alt="" width="561" data-align="center">
 
 ### The dynamical process which MARL control policy overcome the wake effect
 
