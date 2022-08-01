@@ -20,10 +20,12 @@ Please use the following command to see other input parameters of the train.py f
 python3 train.py --help
 ```
 
-<<<<<<< HEAD
 ## SMAC
 
-<img title="" src="./StarCraftMARL/figures/3s_vs_3z.png" alt="" width="213">            <img title="" src="./StarCraftMARL/figures/3s_vs_5z.png" alt="" width="213">        <img title="" src="./StarCraftMARL/figures/corridor.png" alt="" width="213">
+<img title="" src="./StarCraftMARL/figures/3s_vs_3z.png" alt="" width="561" data-align="center">
+<img title="" src="./StarCraftMARL/figures/3s_vs_5z.png" alt="" width="561" data-align="center">
+<img title="" src="./StarCraftMARL/figures/corridor.png" alt="" width="561" data-align="center">
+
 
 # MRRL-based wind farm control tasks (For Reviewers)
 
@@ -122,6 +124,4 @@ We reproduce HAPPO and compare it with MAIPO. From the following results, we can
 ### MPE-Spread
 
 <img title="" src="./fig/new_simple_spread.png" alt="" width="600">
-=======
->>>>>>> ac41a7fc26735af632753bc322d11d87ed26c935
 
