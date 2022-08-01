@@ -20,6 +20,10 @@ Please use the following command to see other input parameters of the train.py f
 python3 train.py --help
 ```
 
+## SMAC
+
+<img title="" src="./StarCraftMARL/figures/3s_vs_3z.png" alt="" width="213">            <img title="" src="./StarCraftMARL/figures/3s_vs_5z.png" alt="" width="213">        <img title="" src="./StarCraftMARL/figures/corridor.png" alt="" width="213">
+
 # MRRL-based wind farm control tasks (For Reviewers)
 
 This section first introduce how we control a wind farm and the wind farm simulator we used. Then a traditional wind farm control method---MPPT is introduced as a baseline.  Afterward, we will evaluate the proposed MAIPO algorithm on this simulator and show the comparison with  HAPPO, MAPPO, MPPT etc. Finally, we will exhibit how the control policies trained by MARL overcome the wake effect in wind farms and boost their power generation. These results will be added in the appendix of the corresponding paper. 
@@ -78,7 +82,7 @@ Experiment 4
 
 <img title="" src="./fig/Turb9.png" alt="" width="561" data-align="center">
 
-### The dynamical process which MARL control policy overcome the wake effect
+<!-- ### The dynamical process which MARL control policy overcome the wake effect
 
 #### MPPT control 
 
@@ -97,7 +101,7 @@ Six Turbine case
 Nine Turbine Case
 
 <img title="" src="./fig/wf9_1.jpg" alt="" width="213">            <img title="" src="./fig/wf9_2.jpg" alt="" width="213">        <img title="" src="./fig/wf9_3.jpg" alt="" width="213">
-
+ -->
 
 
 ## Additional results in MPE
